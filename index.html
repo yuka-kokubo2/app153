@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>お問い合わせフォーム</title>
+</head>
+<body>
+  <form method="GET" action="https://a4z4tb73eprqus3yxzd4jh4rtu0jqchx.lambda-url.ap-southeast-2.on.aws/" method="GET">
+    <p>氏名：<input type="text" name="name"></p>
+    <p>メールアドレス：<input type="text" name="mail"></p>
+    <p>問い合わせ内容：<textarea name="naiyo"></textarea></p>
+    <div>
+      <label><input type="checkbox" name="service" value="Garoon"/>Garoon</label>
+      <label><input type="checkbox" name="service" value="kintone"/>kintone</label>
+      <label><input type="checkbox" name="service" value="Mailwise"/>Mailwise</label>
+      <label><input type="checkbox" name="service" value="サイボウズOffice"/>サイボウズOffice</label>
+    </div>
+
+    <input type="submit" value="送信" id="button"/>
+  </form>
+</body>
+</html>
